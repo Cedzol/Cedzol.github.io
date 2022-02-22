@@ -1,0 +1,52 @@
+.navbar{
+    background-color: #1F1F1F;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+}
+
+.navbar-brand {
+    padding-left: 1vw;
+}
+
+#navbarDropdown:hover, #unilink:hover {
+    color: rgb(189, 129, 0);
+}
+
+#navbarDropdown, #unilink {
+    text-decoration: none;
+    color:#FCCA27;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.dropdown-menu {
+    z-index: 150;
+    color: #FCCA27;
+    background-color: #6F6F6F;
+}
+
+.dropdown-menu a:hover {
+    background-color: #6F6F6F;
+    color: rgb(189, 129, 0);
+}
+
+.dropdown-menu a {
+    color: #FCCA27;
+}
+
+#suchbutton {
+    border: #FCCA27 1px solid;
+    color: #FCCA27;
+}
+
+#suchbutton:hover {
+    background-color: rgb(189, 129, 0);
+    border: #1F1F1F 1px solid;
+    color: #1F1F1F;
+}
+
+#table {
+    width: 100%;
+}

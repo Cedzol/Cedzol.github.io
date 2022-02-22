@@ -1,0 +1,28 @@
+.space {
+    padding-left: 30px;
+}
+
+th {
+    border-bottom: #FCCA27 1px solid;
+}
+
+.brdrl {
+    border-left: #FCCA27 1px solid;
+}
+
+.goup {
+    vertical-align: top;
+}
+
+.brdrb {
+    border-bottom: #FCCA27 1px solid;
+}
+
+.breakpoint {
+    margin-bottom: 20px;
+}
+
+#recht {
+    color: red;
+    text-align: center;
+}

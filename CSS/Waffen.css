@@ -1,0 +1,64 @@
+pre {
+    color: white;
+    font-size:larger ;
+    font-family: 'Heebo', sans-serif;
+}
+
+p {
+    color: white;
+    font-size:larger ;
+
+}
+
+.daten {
+    padding-left: 12.5%;
+}
+
+img {
+    padding-top: 40%;
+    width: 110%;
+    
+}
+
+.p210 {
+    width: 90%;
+}
+
+.alfa {
+    width: 80%;
+    
+    padding-bottom: 20%;
+}
+
+.luger {
+    width: 20%;
+    padding-bottom: 120px;
+}
+
+.KK {
+    width: 70%;
+    padding-bottom: 120px;
+}
+
+#Vetterli {
+    width: 60%;
+    transform: rotate(-90deg);
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+}
+
+.story {
+    font-size: 1.3vw;
+    color: #FCCA27;
+}
+
+.details {
+    color: #FCCA27;
+    font-size: 1.3vw;
+}
+
+#alfa {
+    width: 100%;
+}
