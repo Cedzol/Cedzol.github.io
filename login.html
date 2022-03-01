@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Waffen-Info Login</title>
+    <link rel="icon" href="../Bilder/Brand.png" type="../Bilder/Brand.png">
     <link rel="stylesheet" href="../CSS/nav.css">
     <link rel="stylesheet" href="../CSS/BUS-Home.css">
     <link rel="stylesheet" href="../CSS/box.css">
@@ -18,14 +19,14 @@
       
         <div class="container" style="text-align: center;" id="loginForm">
           <label for="uname"><b style="color: #FCCA27;">Username</b></label>
-          <input type="text" placeholder="Enter Username" name="uname" required>
+          <input type="text" placeholder="Enter Username" id="user" name="uname" required>
           <br>
           <br>
           <br>
           
       
           <label for="psw"><b style="color: #FCCA27;">Password</b></label>
-          <input type="password" placeholder="Enter Password" name="psw" required>
+          <input type="password" placeholder="Enter Password" id="pd" name="psw" required>
           <br>
           <br>
           <br>
@@ -36,8 +37,45 @@
         <br>
       
         <div class="container" style="text-align: center;">
-          <button type="button" class="loginButton"><a href="BUS-Home.html" class="loginButton">Cancel</a></button>
+          <button type="button" class="loginButton" onclick="createCookie()"><a href="BUS-Home.html" class="loginButton">Cancel</a></button>
         </div>
       </form>
+
+      <script>
+
+  function createCookie(name,pwds){
+  let username = document.getElementById("user");
+  let pwd = document.getElementById("pd");
+
+
+  today = new Date();
+  var expire = new Date();
+  expire.setTime(today.getTime() + 3600000*24*15);
+ 
+
+  document.cookie = "name="+username.value+";path=/" + ";expires="+expire.toUTCString();
+  document.cookie = "password="+encodeURI(pwd.value)+";path=/" + ";expires="+expire.toUTCString();
+  //can only write one entity at a time (name, pass)
+}  
+
+
+//event handler for page load - runs on every refresh
+window.open.href="profileHome" = function(){
+
+  //how to read back the stored name and password?
+  //https://stackoverflow.com/q/10730362/6160662
+  //https://stackoverflow.com/q/5639346/6160662
+
+
+  //for now
+  var uname = 'Route66';
+  var pass = '123456';
+
+  document.getElementById('user').value = uname;
+  document.getElementById('pd').value = pass;
+
+}
+
+      </script>
 </body>
 </html>
