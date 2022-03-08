@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../CSS/box.css">
 </head>
 <body>
-    <form action="action_page.php" method="post">
+    <form action="profileHome.html" method="post">
     
         <div class="imgcontainer" style="text-align: center;">
             <img src="../Bilder/img_avatar2.png" alt="Avatar" class="avatar" id="loginAvatar">
@@ -32,6 +32,7 @@
           <br>
       
           <button type="submit" class="loginButton" id="login">Login</button>
+          <button type="submit" class="loginButton" id="login"><a href="register.html">Register</a></button>
 
         </div>
         <br>
@@ -57,24 +58,6 @@
   document.cookie = "password="+encodeURI(pwd.value)+";path=/" + ";expires="+expire.toUTCString();
   //can only write one entity at a time (name, pass)
 }  
-
-
-//event handler for page load - runs on every refresh
-window.open.href="profileHome" = function(){
-
-  //how to read back the stored name and password?
-  //https://stackoverflow.com/q/10730362/6160662
-  //https://stackoverflow.com/q/5639346/6160662
-
-
-  //for now
-  var uname = 'Route66';
-  var pass = '123456';
-
-  document.getElementById('user').value = uname;
-  document.getElementById('pd').value = pass;
-
-}
 
       </script>
 </body>
