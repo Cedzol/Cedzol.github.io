@@ -1,4 +1,4 @@
-Center > p{
+Center > a{
     display: inline-block;
     align-items: center;
     color: rgb(179, 179, 179);
@@ -19,10 +19,17 @@ Center > p{
     rotate: 90;
 }
 
+div {
+    position: relative;
+}
+
 .nav{
     background: #353535;
     padding-top: 10px;
     padding-bottom: 10px;
+    position: absolute;
+    min-width: 100%;
+    min-height: 25px;
 }
 
 .unicef > img{
@@ -41,6 +48,11 @@ Center > p{
     color: rgb(11, 125, 255);
 }
 
+.unicef{
+    padding-top: 45px;
+    padding-bottom: 30px;
+}
+
 a{
     text-decoration: none;
 }
@@ -52,4 +64,12 @@ a{
 .cta-links > a{
     padding-top: 15px;
     color: rgb(11, 125, 255);
+}
+
+#imagePro{
+    width: 100%;
+}
+
+#Pro{
+    font-size: 55px;
 }
