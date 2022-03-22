@@ -1,0 +1,55 @@
+Center > p{
+    display: inline-block;
+    align-items: center;
+    color: rgb(179, 179, 179);
+    font-size: 12px;
+    padding-left: 40px;
+    padding-top: 0px;
+    margin-top: 0px;
+    align-self: center;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.navImage{
+    width: 14px;
+    rotate: 90;
+}
+
+.nav{
+    background: #353535;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.unicef > img{
+    display: inline-block;
+    align-self: center;
+    align-items: center;
+    width: 130px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.unicef > a{
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(11, 125, 255);
+}
+
+a{
+    text-decoration: none;
+}
+
+#arrow{
+    width: 10px;
+}
+
+.cta-links > a{
+    padding-top: 15px;
+    color: rgb(11, 125, 255);
+}
