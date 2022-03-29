@@ -1,9 +1,9 @@
 Center > a{
     display: inline-block;
     align-items: center;
-    color: rgb(179, 179, 179);
+    color: rgb(211, 211, 211);
     font-size: 12px;
-    padding-left: 40px;
+    padding-left: 42px;
     padding-top: 0px;
     margin-top: 0px;
     align-self: center;
@@ -30,13 +30,17 @@ div {
     position: absolute;
     min-width: 100%;
     min-height: 25px;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 2;
 }
 
 .unicef > img{
     display: inline-block;
     align-self: center;
     align-items: center;
-    width: 130px;
+    width: 125px;
     text-align: center;
     vertical-align: middle;
 }
@@ -50,7 +54,8 @@ div {
 
 .unicef{
     padding-top: 45px;
-    padding-bottom: 30px;
+    padding-bottom: 5px;
+    background: #f3f3f3;
 }
 
 a{
@@ -64,12 +69,91 @@ a{
 .cta-links > a{
     padding-top: 15px;
     color: rgb(11, 125, 255);
+    font-size: 20px;
+    z-index: 1;
 }
 
 #imagePro{
     width: 100%;
 }
 
-#Pro{
+.Pro{
     font-size: 55px;
+}
+
+.lies{
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.upsell {
+    padding-right: 40px;
+}
+
+.iphone-13-pro-avail{
+    background: #fafafa;
+}
+
+#iphoneSE {
+    width: 100%;
+}
+
+.prdspace {
+    background: #ffffff;
+    padding-bottom: 15px;
+}
+
+#seSpace{
+    background: #fafafa;
+    padding-bottom: 35px;
+}
+
+#ipadair{
+    width: 100%;
+}
+
+#ds{
+    width: 100%;
+}
+
+#pw{
+    width: 100%;
+}
+
+#homePod{
+    width: 100%;
+}
+
+#ac-globalfooter {
+    --footer-background: #f5f5f7;
+    --footer-border-color: #d2d2d7;
+    --footer-text-color: #6e6e73;
+    --footer-link-color: #424245;
+    --footer-directory-title-color: #1d1d1f;
+    --footer-directory-title-color-hover: #000;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background: var(--footer-background);
+    color: var(--footer-text-color);
+    min-width: 1024px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+footer {
+    display: block;
+}
+
+#footerIMG{
+    width: 100%;
+}
+
+#unicefspc{
+    padding-bottom: 24px;
+    background: #fafafa;
 }
